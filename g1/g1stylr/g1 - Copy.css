@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: blueviolet;
+    
+}
+
+.div1{
+
+
+    /*
+    position: relative;
+    left: 4rem;
+    max-width: 89%;
+    max-height: 200rem;
+    background-color: #637b7b;
+    margin-left: 1rem;
+    margin-top: 1rem;
+*/
+    min-width: 24rem;
+    position: relative;
+    left: 5%;
+    max-width: 90%;
+    max-height: 500rem;
+    background-color: #637b7b;
+    top: 3rem;
+
+}
+
+.div2{
+    position: relative;
+    background-image: url("../img/409.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+    
+
+}
+
+.div2 h2{
+    
+    position: absolute;
+    color: rgb(107, 93, 93);
+    text-align: center;
+    bottom: 1rem;
+    left: 5.25rem;
+    filter: drop-shadow(8px 4px 2px rgb(107, 93, 93));
+    text-transform: uppercase;
+}
+.div3{
+    position: relative;
+    background-color: #ffffff;
+    background-image: url("../img/sharkoon_tg7m_os_11.jpg");
+    background-position-y: -1.2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+.div3 h2{
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 5.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+.div4{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/ipad-Pro-2021.png");
+    background-position-y: -1.2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div4 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+.div5{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/mather.png");
+    background-position-y: -0.3em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size:115%;
+    backdrop-filter: drop-shadow(8px 4px 2px red);
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div5 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 0.5rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+.div6{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/ram.webp");
+    background-position-y: -0.8em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+.div6 h2 {
+    width:18rem;
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.9rem;
+    font-size: 1.55rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+.div7{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/cpu.jpg");
+    background-position-y: 1rem;
+    background-repeat: no-repeat;
+    background-size:100%;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+
+.div7 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+.div8{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/kebord.png");
+    background-position-y: -1.2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div8 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+
+.div9{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/maos.jpg");
+    background-position-y: 1.2em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 58%;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div9 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+.div10{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/speker.webp");
+    background-position-y: -1.2em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size:90%;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div10 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+.div11{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/marwoha.png");
+    background-position-y: 0.5em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size:75%;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div11 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+.div12{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/CC-CM-ML360LPZRW-1-600x600.webp");
+    background-position-y: -1.2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div12 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+
+.div13{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/shaha.webp");
+    background-position-y: -1.9em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div13 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+.div14{
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    background-image: url("../img/head-spekar.jpg");
+    background-position-y: 1em;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size:70%;
+    box-shadow: 16px 8px 4px rgba(0, 0, 0, 0.527);
+}
+
+
+.div14 h2 {
+
+    position: absolute;
+    color: rgb(107, 93, 93);
+    bottom: 1rem;
+    left: 2.25rem;
+    filter: drop-shadow(16px 8px 4px rgb(107, 93, 93));
+    text-transform: uppercase;
+    
+
+}
+
+
+
+.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9,.div10,.div11,.div12,.div13,.div14{
+    max-width: 20rem;
+    max-height: 20rem;
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+
